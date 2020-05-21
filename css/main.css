@@ -1,0 +1,56 @@
+.navbar {
+    height: 40px;
+    background-color: #00204e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns:  auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.step {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.input-form {
+    margin: 5px;
+    font-size: 1.1em;
+}
+input {
+    height: 25px;
+}
+.form_button {
+    height: 30px;
+    color: #ffffff;
+    background-color: #00204e;
+    border: none;
+    margin: 10px;
+}
+
+#licz_exam {
+    color: #ffffff;
+    background-color: #00204e;
+    text-transform: uppercase;
+    width: 60px;
+    height: 30px;
+    border: 0px;
+}
+
+.hidden_input {
+    visibility: hidden;
+}
+
+.success {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
